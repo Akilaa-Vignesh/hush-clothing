@@ -2,10 +2,10 @@ import React from "react";
 import { MenuItem } from "../menu-item/menu-item.component";
 import "./directory.styles.scss";
 
-import { sections } from "./mock-data";
+import { SECTIONS_DATA } from "./mock-data";
 export class Directory extends React.Component {
   state = {
-    sections: sections,
+    sections: SECTIONS_DATA,
   };
   render() {
     return (
